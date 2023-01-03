@@ -1,12 +1,12 @@
 import model.Resume;
-import storage.ResumeStorage;
-
+import storage.SortedArrayStorage;
+import storage.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Loader {
-    private final static ResumeStorage ARRAY_STORAGE = new ResumeStorage();
+    private final static Storage ARRAY_STORAGE = new SortedArrayStorage();
     private static  long TIMEOUT;
 
 
