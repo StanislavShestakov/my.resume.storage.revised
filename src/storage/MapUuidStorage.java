@@ -4,12 +4,8 @@ import model.Resume;
 
 import java.util.*;
 
-public class MapUuidStorage extends AbstractStorage{
-
-    //  private Map<String, Resume> map = new HashMap<>();
-    // HashMap использовать нельзя при данном  getAll(), потому что не гарантируется порядок
-    // какой соблюдается в тесте, по этоу пока используем  TreeMap<>
-    private Map<String, Resume> map = new TreeMap<>();
+public class MapUuidStorage extends AbstractStorage {
+    private Map<String, Resume> map = new HashMap<>();
 
     @Override
     protected String getSearchKey(String uuid) {
@@ -47,9 +43,8 @@ public class MapUuidStorage extends AbstractStorage{
     }
 
     @Override
-    public Resume[] getAll() {
-        List list = new ArrayList<>(map.values());
-        return (Resume[]) list.toArray(new Resume[list.size()]);
+    public List<Resume> doCopyAll() {
+        return new ArrayList<>(map.values());
     }
 
     @Override
