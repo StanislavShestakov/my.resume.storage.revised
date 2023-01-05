@@ -2,7 +2,7 @@ package model;
 
 import java.util.UUID;
 
-public class Resume implements Comparable<Resume>{
+public class Resume {
     private String uuid;
     public Resume(String uuid) {
         this.uuid = uuid;
@@ -42,8 +42,5 @@ public class Resume implements Comparable<Resume>{
         return uuid;
     }
 
-    @Override
-    public int compareTo(Resume o) {
-        return uuid.compareTo(o.uuid);
-    }
+
 }
