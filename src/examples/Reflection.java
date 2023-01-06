@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 
 public class Reflection {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException, ClassNotFoundException, InstantiationException, NoSuchMethodException, InvocationTargetException {
-        Resume r = new Resume();
+        Resume r = new Resume("uuid");
         Field field = r.getClass().getDeclaredField("uuid");
         //без открытия доступа будет IllegalAccessException
         field.setAccessible(true);
