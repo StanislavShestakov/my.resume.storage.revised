@@ -51,5 +51,10 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="glassfish.jaxb.codemodel" level="project" />
+    <orderEntry type="library" name="javax.xml.bind.jaxb.api" level="project" />
+    <orderEntry type="library" name="sun.xml.bind.jaxb.core" level="project" />
+    <orderEntry type="library" name="sun.xml.bind.jaxb.impl" level="project" />
+    <orderEntry type="library" name="javax.activation" level="project" />
   </component>
 </module>
