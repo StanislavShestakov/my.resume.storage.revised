@@ -67,10 +67,10 @@ public class Organization implements Serializable {
 
     @XmlAccessorType(XmlAccessType.FIELD)
     public static class Position implements Serializable {
+
         @JsonAdapter(GsonLocalDateAdapter.class)
         @XmlJavaTypeAdapter(LocalDateAdapter.class)
         private LocalDate startDate;
-
         @JsonAdapter(GsonLocalDateAdapter.class)
         @XmlJavaTypeAdapter(LocalDateAdapter.class)
         private LocalDate endDate;
