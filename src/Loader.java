@@ -10,7 +10,7 @@ public class Loader {
     private final  static Storage ARRAY_STORAGE = new ArrayStorage();
 
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new  BufferedReader(new InputStreamReader(System.in));
         Resume r;
         while (true) {
             System.out.print("Введите одну из команд - (list | save fullName | delete uuid | get uuid | update uuid fullName | clear | exit): ");
