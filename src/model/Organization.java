@@ -1,5 +1,7 @@
 package model;
 
+import com.google.gson.annotations.JsonAdapter;
+import util.GsonLocalDateAdapter;
 import util.LocalDateAdapter;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -63,14 +65,13 @@ public class Organization implements Serializable {
         return "Organization(" + homePage + "," + positions + ')';
     }
 
-    /**
-     * gkislin
-     * 28.07.2016
-     */
     @XmlAccessorType(XmlAccessType.FIELD)
     public static class Position implements Serializable {
+        @JsonAdapter(GsonLocalDateAdapter.class)
         @XmlJavaTypeAdapter(LocalDateAdapter.class)
         private LocalDate startDate;
+
+        @JsonAdapter(GsonLocalDateAdapter.class)
         @XmlJavaTypeAdapter(LocalDateAdapter.class)
         private LocalDate endDate;
         private String title;

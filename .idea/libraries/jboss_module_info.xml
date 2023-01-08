@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="jboss.module.info" type="repository">
+    <properties maven-id="org.jboss.module-info:module-info:1.0.Final" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/module-info-1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-plugin-api-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-model-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-artifact-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sisu-inject-plexus-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-component-annotations-1.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-classworlds-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sisu-inject-bean-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sisu-guice-3.1.0-no_aop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sisu-guava-0.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-project-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-profile-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-artifact-manager-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-repository-metadata-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-provider-api-1.0-beta-6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/backport-util-concurrent-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-plugin-registry-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-interpolation-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-container-default-1.0-alpha-9-stable-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/classworlds-1.1-alpha-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-filtering-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-core-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-file-1.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-plugin-parameter-documenter-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-http-lightweight-1.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-http-shared-1.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jtidy-4aug2000r7-dev.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-reporting-api-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/doxia-sink-api-1.0-alpha-7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-error-diagnostics-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-cli-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-ssh-external-1.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-ssh-common-1.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-plugin-descriptor-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-interactivity-api-1.0-alpha-4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-monitor-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/wagon-ssh-1.0-beta-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsch-0.1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-build-api-0.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-plugin-annotations-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-utils-3.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-settings-3.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
