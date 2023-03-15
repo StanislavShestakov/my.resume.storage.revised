@@ -1,5 +1,6 @@
 package storage;
 
+import conf.*;
 import exception.ExistStorageException;
 import exception.NotExistStorageException;
 
@@ -17,7 +18,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public abstract class AbstractStorageTest {
-    protected static final File STORAGE_DIR = new File("f:\\1\\");
+
+    protected static final File STORAGE_DIR = Config.get().getStorageDir();
 
     protected Storage storage;
 

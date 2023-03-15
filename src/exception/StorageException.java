@@ -22,7 +22,10 @@ public class StorageException extends RuntimeException {
         super(message, e);
         this.uuid = uuid;
     }
+    public StorageException(Exception e){
+        this(e.getMessage(),null,e);
 
+    }
     public String getUuid() {
         return uuid;
     }
