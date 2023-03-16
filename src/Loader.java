@@ -13,7 +13,7 @@ public class Loader {
         BufferedReader reader = new  BufferedReader(new InputStreamReader(System.in));
         Resume r;
         while (true) {
-            //коментарий
+
             System.out.print("Введите одну из команд - (list | save fullName | delete uuid | get uuid | update uuid fullName | clear | exit): ");
             String[] params = reader.readLine().trim().toLowerCase().split(" ");
             if (params.length < 1 || params.length > 3) {
