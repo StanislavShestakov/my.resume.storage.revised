@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="resumesExploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/resumesExploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="my.resume.storage.revision" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.xml.bind.jaxb.api" />
+          <element id="library" level="project" name="sun.xml.bind.jaxb.core" />
+          <element id="library" level="project" name="sun.xml.bind.jaxb.impl" />
+          <element id="library" level="project" name="javax.activation" />
+          <element id="library" level="project" name="google.code.gson" />
+          <element id="library" level="project" name="jboss.module.info" />
+          <element id="library" level="project" name="postgresql-42.5.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="my.resume.storage.revision/web/Web" />
+    </root>
+  </artifact>
+</component>
