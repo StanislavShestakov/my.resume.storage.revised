@@ -8,28 +8,7 @@ import javax.xml.bind.Unmarshaller;
 import java.io.Reader;
 import java.io.Writer;
 
-/*
-<dependency>
-  <groupId>javax.xml.bind</groupId>
-  <artifactId>jaxb-api</artifactId>
-  <version>2.3.0</version>
-</dependency>
-<dependency>
-  <groupId>com.sun.xml.bind</groupId>
-  <artifactId>jaxb-core</artifactId>
-  <version>2.3.0</version>
-</dependency>
-<dependency>
-  <groupId>com.sun.xml.bind</groupId>
-  <artifactId>jaxb-impl</artifactId>
-  <version>2.3.0</version>
-</dependency>
-<dependency>
-    <groupId>javax.activation</groupId>
-    <artifactId>activation</artifactId>
-    <version>1.1.1</version>
-</dependency>
-* */
+
 public class XmlParser {
     private final Marshaller marshaller;
     private final Unmarshaller unmarshaller;
