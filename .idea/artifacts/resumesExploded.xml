@@ -14,6 +14,7 @@
           <element id="library" level="project" name="google.code.gson" />
           <element id="library" level="project" name="jboss.module.info" />
           <element id="library" level="project" name="postgresql-42.5.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jetty-server-11.0.14.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="my.resume.storage.revision/web/Web" />
