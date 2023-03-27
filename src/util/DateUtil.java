@@ -6,6 +6,7 @@ import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 
 public class DateUtil {
+
     public static final LocalDate NOW = LocalDate.of(3000, 1, 1);
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("MM/yyyy");
 
@@ -24,3 +25,4 @@ public class DateUtil {
         return LocalDate.of(yearMonth.getYear(), yearMonth.getMonth(), 1);
     }
 }
+
