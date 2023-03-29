@@ -8,7 +8,6 @@ import java.time.format.DateTimeFormatter;
 
 public class GsonLocalDateAdapter implements JsonSerializer<LocalDate>,JsonDeserializer<LocalDate>{
 
-
         @Override
         public LocalDate deserialize(JsonElement jsonElement, Type type, JsonDeserializationContext jsonDeserializationContext) throws JsonParseException {
             String ldtString = jsonElement.getAsString();
