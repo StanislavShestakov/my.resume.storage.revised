@@ -6,5 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
-<header><a href="resume">Управление резюме</a></header>
-<hr/>
+<div class="footer">
+    <a class="footer-text-anchor" href="http://google.com">
+        <div>Проект: разработка web-приложения «База данных резюме»</div>
+    </a>
+</div>

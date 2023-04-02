@@ -4,9 +4,12 @@ import storage.SqlStorage;
 import storage.Storage;
 
 import java.io.*;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 
 public class Config {
+
     private static final File PROPS = new File(getHomeDir(), "config\\resumes.properties");
     private static final Config INSTANCE = new Config();
 
